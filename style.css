@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    height: 100vh;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+}
+
+.attribution {
+    margin-top: 90px;
+}
+
+/* --------------------- div 1 ---------------------- */
+
+.div1 {
+    width: 400px;
+    height: 400px;
+    background-image: linear-gradient(to bottom, hsl(215deg 17.65% 13.33%), hsl(220, 16%, 11%));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.img {
+    border-radius: 100%;
+    background-color: hsl(215, 19%, 25%);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+}
+
+.parag {
+    line-height: 32px;
+    color: hsl(217, 12%, 63%);
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-around;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five {
+    border-radius: 100%;
+    background-color: hsl(215, 19%, 25%);
+    width: 40px;
+    height: 40px;
+    border: none;
+
+}
+
+.subBtn {
+    padding: 11px 0px;
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    letter-spacing: 2.5px;
+    border: none;
+    cursor: pointer;
+}
+
+.subBtn:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+
+
+.one:focus,
+.two:focus,
+.three:focus,
+.four:focus,
+.five:focus {
+    background-color: hsl(217, 12%, 63%);
+}
+
+/* --------------------- div 2 ---------------------- */
+.div2 {
+    display: none;
+}
