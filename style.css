@@ -29,7 +29,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
     padding: 25px;
-    border-radius: 12px;
+    border-radius: 20px;
 }
 
 .img {
@@ -58,7 +58,7 @@ body {
     justify-content: space-around;
 }
 
-.one,
+#one,
 .two,
 .three,
 .four,
@@ -68,6 +68,8 @@ body {
     width: 40px;
     height: 40px;
     border: none;
+    color: hsl(216, 23%, 79%);
+
 
 }
 
@@ -88,15 +90,62 @@ body {
 
 
 
-.one:focus,
+#one:focus,
 .two:focus,
 .three:focus,
 .four:focus,
 .five:focus {
     background-color: hsl(217, 12%, 63%);
+    color: hsl(218, 44%, 95%);
+
 }
 
 /* --------------------- div 2 ---------------------- */
 .div2 {
+    width: 400px;
+    height: 500px;
+    background-image: linear-gradient(to bottom, hsl(215deg 17.65% 13.33%), hsl(220, 16%, 11%));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px;
+    border-radius: 20px;
+    align-items: center;
     display: none;
+
+}
+
+.select{
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(215, 19%, 25%);
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+
+.thank{
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+}
+
+.appreciate{
+    line-height: 32px;
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+}
+
+.rateAgainBtn{
+    padding: 11px 0px;
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    letter-spacing: 2.5px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.rateAgainBtn:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
 }
