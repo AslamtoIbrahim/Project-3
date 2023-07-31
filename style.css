@@ -149,3 +149,18 @@ body {
     background-color: white;
     color: hsl(25, 97%, 53%);
 }
+
+
+@media only screen and (max-width:360px) {
+    .div1, .div2{
+        margin: 0px 20px;
+        width: 90%;
+        height: 60%;
+
+    }
+
+    .attribution{
+        text-align: center;
+        font-size: 12px;
+    }
+}
