@@ -1,6 +1,4 @@
 
-
- 
 var rate = 0;
 function setRate(num){
     rate = num;
