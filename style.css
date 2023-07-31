@@ -151,7 +151,7 @@ body {
 }
 
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:430px) {
     .div1, .div2{
         margin: 0px 20px;
         width: 90%;
