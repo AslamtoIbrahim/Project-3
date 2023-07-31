@@ -17,27 +17,27 @@
 </head>
 
 <body>
-  <div class="div1">
+  <div class="div1" id="div1">
     <div class="img"><img src="images/icon-star.svg" alt=""></div>
     <p class="title">How did we do?</p>
     <p class="parag">Please let us know how we did with your support request. All feedback is appreciated
       to help us improve our offering!</p>
     <div class="numbers">
-      <input type="button" value="1" id="one">
-      <input type="button" value="2" class="two">
-      <input type="button" value="3" class="three">
-      <input type="button" value="4" class="four">
-      <input type="button" value="5" class="five">
+      <input type="button" value="1" id="one" onclick="setRate(1)">
+      <input type="button" value="2" class="two" onclick="setRate(2)">
+      <input type="button" value="3" class="three" onclick="setRate(3)">
+      <input type="button" value="4" class="four" onclick="setRate(4)">
+      <input type="button" value="5" class="five" onclick="setRate(5)">
     </div>
-    <button class="subBtn" type="button">SUBMIT</button>
+    <button class="subBtn" type="button" onclick="submit()">SUBMIT</button>
   </div>
-  <div class="div2">
+  <div class="div2" id="div2">
     <img src="images/illustration-thank-you.svg" alt="">
-    <p class="select">You selected <span>0</span> out of 5</p>
+    <p class="select">You selected <span id="rate">0</span> out of 5</p>
     <p class="thank">Thank you!</p>
     <p class="appreciate">We appreciate you taking the time to give a rating. If you ever need more support,
       don’t hesitate to get in touch!</p>
-    <button class="rateAgainBtn" type="button">RATE AGAIN</button>
+    <button class="rateAgainBtn" type="button" onclick="rateAgain()">RATE AGAIN</button>
   </div>
 
   <div class="attribution">
